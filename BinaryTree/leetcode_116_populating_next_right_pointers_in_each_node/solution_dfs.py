@@ -11,6 +11,7 @@ class Solution:
     def connect(self, root: 'Optional[Node]') -> 'Optional[Node]':
         if root == None:
             return root
+        
         connect_nodes(root.left, root.right)
         
         return root
