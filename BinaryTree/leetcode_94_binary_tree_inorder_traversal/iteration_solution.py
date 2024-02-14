@@ -4,6 +4,8 @@ class TreeNode(object):
         self.val = val
         self.left = left
         self.right = right
+        
+        
 class Solution(object):
     def inorderTraversal(self, root):
         """
@@ -43,7 +45,6 @@ class Solution(object):
                 curNode = curNode.right
         
         return result
-
 
 solution = Solution()
 root = TreeNode(1, None, TreeNode(2, TreeNode(3), None))
