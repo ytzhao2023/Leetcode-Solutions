@@ -1,4 +1,4 @@
-package List.leetcode_209_minimum_size_subarray_sum;
+package Array.leetcode_209_minimum_size_subarray_sum;
 
 public class Solution {
     public int minSubArrayLen(int target, int[] nums) {
